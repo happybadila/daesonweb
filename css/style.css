@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 3000px;
+}
+
+/* Nav*/
+nav {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-link {
+  color: white !important;
+  text-shadow: 1px 1px 5px #414141;
+}
+/* Akhir Nav */
+
+/* hero */
+.jumbotron {
+  /* margin-top: 80px; */
+  background-image: url(/image/hero/hero-daeson2.jpg);
+  background-size: cover;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 70%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  /* text-align: center; */
+  padding-top: 200px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px #414141;
+  font-size: 28px;
+}
+
+.jumbotron button {
+  /* text-align: center; */
+}
+
+.jumbotron .display-4 span {
+  font-weight: bold;
+}
+
+/* akhir  hero*/
+
+/* about */
+
+#about {
+  margin-top: 30px;
+}
+
+#about .container {
+  height: 750px;
+}
+
+#about .container img {
+  height: 735px;
+}
+/* akhir about */
+
+/* product */
+
+#product .container {
+  height: 750px;
+}
+
+#product {
+  margin-top: 550px;
+}
+
+/* #product .row {
+  justify-content: center;
+}
+
+#product .product {
+  text-align: center;
+} */
+
+/* akhir product */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .jumbotron {
+    height: 765px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 48px;
+    padding-top: 300px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #about {
+    margin-top: 90px;
+  }
+
+  #product {
+    margin-top: 90px;
+  }
+}

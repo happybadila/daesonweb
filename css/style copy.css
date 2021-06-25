@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 3000px;
+}
+
+/* Navbar */
+.navbar {
+  height: 72px;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+/* Hero */
+.hero {
+  height: 650px;
+}
+
+.hero .img {
+  background-image: url(/image/hero/hero-daeson.png);
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  padding-top: 240px;
+  padding-left: 100px;
+  color: rgb(230, 230, 230);
+  font-size: 35px;
+}
+
+.hero h1 span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* About */
+
+section#about {
+  padding-top: 90px;
+}
+#about {
+  margin-top: -230px;
+}
+
+#about .container {
+  height: 750px;
+  /* background-color: khaki; */
+}
+
+#about .container img {
+  height: 735px;
+  /* background-color: khaki; */
+}
+
+#product {
+  margin-top: 70px;
+  background-color: aqua;
+}
+
+/* responsive */
+/* @media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #000000;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .navbar .nav-link {
+    color: #fff;
+  }
+
+  .hero {
+    height: 800px;
+    margin-top: 72px;
+  }
+
+  .hero h1 {
+    padding-top: 440px;
+    padding-left: 900px;
+    color: rgb(202, 202, 202);
+  }
+
+  .hero h1 span {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .hero .img {
+    background-image: url(/image/hero/hero-daeson.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #about {
+    margin-top: 70px;
+  }
+} */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  ...;
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  ...;
+}
