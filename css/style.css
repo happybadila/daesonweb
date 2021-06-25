@@ -21,7 +21,7 @@ nav {
 /* hero */
 .jumbotron {
   /* margin-top: 80px; */
-  background-image: url(/image/hero/hero-daeson2.jpg);
+  background-image: url(image/hero/hero-daeson2.jpg);
   background-size: cover;
   height: 350px;
   background-position: center;
